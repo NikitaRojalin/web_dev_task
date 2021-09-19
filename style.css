@@ -1,0 +1,74 @@
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.hed{
+    padding:8px;
+    border-top: 2px solid black;
+    border-bottom:2px solid black;
+    margin-top: 0;
+    font-size:18px;
+}
+.main-heading{
+    font-size:120px;
+    font-weight:lighter;
+
+}
+.fst-para,.text-para,.last-para{
+    display: flex;
+    justify-content: space-between;
+}
+.para2{
+    background-color:lightgrey;
+    height:400px;
+    width:6000px;
+    margin-left: 20px;
+
+}
+.para2>p{
+    color: white;
+    margin-top: 300px;
+    margin-left:500px;
+    font-size:20px;
+    text-align: right;
+    padding:10px;
+}
+
+.last1,.last2,.last3{
+    background-color: lightgrey;
+    height:200px;
+    width:400px;
+}
+.sup-cls{
+    background-color:darkred;
+    color:white;padding:10px;
+    font-size:16px;
+}
+.t1,.t2,.t3{
+    padding:10px;
+}
+.t2{
+    margin-left:5px;
+    margin-right: 5px;
+    text-align:center;
+
+}
+.red-hd{
+    color:darkred;
+    text-align: center;
+    border-top: 2px solid black;
+    font-weight: bold;
+    font-size:30px;
+    padding:5px;
+
+}
+.foot{
+    border-top:2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
